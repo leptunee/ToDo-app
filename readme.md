@@ -7,3 +7,9 @@ This is a demo version of the app.
 This is a practice to learn Git, GitHub, and project developing.
 
 ## Features
+
+- Add new tasks
+
+- Delete tasks
+
+- Mark tasks as completed
