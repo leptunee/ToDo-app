@@ -30,7 +30,7 @@ function renderTasks() {
   list.innerHTML = '';
   taskList.forEach((task, index) => {
     const li = document.createElement('li');
-    li.className = task.done ? 'done' : '';
+    li.className = `flex justify-between items-center p-2 rounded ${task.done ? 'line-through text-gray-400 bg-gray-100' : 'bg-gray-200'}`;
     li.innerHTML = `
       <span onclick="toggleTask(${index})">${task.text}</span>
       <button onclick="deleteTask(${index})">X</button>
