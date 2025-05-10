@@ -13,3 +13,5 @@ This is a practice to learn Git, GitHub, and project developing.
 - Delete tasks
 
 - Mark tasks as completed
+
+- localStorage to store tasks
